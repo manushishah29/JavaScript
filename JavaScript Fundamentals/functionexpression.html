@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // function sayHi()
+        // {
+        //     alert("Hello");
+        // }
+        // alert(sayHi)
+        // function sayHi()
+        // {
+        //     alert("Hello");
+        // }
+        // func=sayHi;
+        // sayHi();
+        // func();
+        function ask(question, showOk, showCancel) {
+  if (confirm(question)) showOk()
+  else showCancel()
+}
+            function showOk()
+            {
+                alert("Agreed")
+            }
+            function showCancel()
+            {
+                alert("not")
+            }
+            ask("Do you agree?",showOk,showCancel)
+    </script>
+</body>
+</html>

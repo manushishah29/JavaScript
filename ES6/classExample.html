@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="classExample"></p>
+    <script type="text/javascript">
+        // class Car{
+        //     constructor(name,year)
+        //     {
+        //         this.name=name;
+        //         this.year=year;
+        //     }
+        //     getName()
+        //     {
+        //         let name=myCar.name;
+        //         return name;
+        //     }
+        //     getYear()
+        //     {
+        //         let year=myCar.year;
+        //         return year;
+        //     }
+        // }
+        // let myCar=new Car("Ford",2014);  
+        // document.getElementById("classExample").innerHTML=myCar.getName()+" "+myCar.getYear();
+        class sum
+        {
+            
+            s(a,b)
+            {
+                const c=a+b;
+                return c;
+            }
+        }
+        const mySum=new sum();
+        document.getElementById("classExample").innerHTML=mySum.s(2,3);
+    </script>
+</body>
+</html>

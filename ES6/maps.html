@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="fruits"></p>
+    <script type="text/javascript">
+        // const fruits=new Map(
+        //     [
+        //         ['banana',500],
+        //         ['apple',600],
+        //         ['orange',700]
+        //     ]
+        // );
+        const fruits=new Map();
+        fruits.set('apple',500);
+        fruits.set('banana',600);
+        //map size 
+        //fruits.size
+        //fruits.delete('apple');
+        // fruits.has('apple');
+        // fruits.clear();
+        // fruits instanceof Map;
+        // typeof fruits;
+        document.getElementById("fruits").innerHTML=fruits.get('apple');
+    </script>
+</body>
+</html>

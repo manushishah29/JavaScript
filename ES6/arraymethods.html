@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="methods"></p>
+    <script type="text/javascript">
+        // const myArray=Array.from("ABCDEF");
+        // document.getElementById("methods").innerHTML=myArray;
+
+        // const fruits=["apple","banana","orange"];
+        // const keys=fruits.keys();
+        // let text="";
+        // for(let x of keys)
+        // {
+        //     text+=x+"<br>";
+        // }
+        // document.getElementById("methods").innerHTML=text;
+
+        const numbers=[2,4,5,9,8,5];
+        let num=numbers.findIndex(myFunction);
+        document.getElementById("methods").innerHTML=num;
+        function myFunction(value,index,array)
+        {
+            return value > 18;
+        }
+        
+
+    </script>
+</body>
+</html>
